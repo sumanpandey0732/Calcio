@@ -14,7 +14,11 @@ body {
     overflow: hidden;
     position: relative;
 }
-
+.top-ad, .scroll-ad, .footer-ad {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
 /* Animated background shapes */
 .background-shapes {
     position: fixed;
@@ -290,4 +294,5 @@ body {
     .buttons {
         gap: 10px;
     }
+
 }
